@@ -1,0 +1,14 @@
+source 'https://github.com/BoseWCTC/Specs.git'
+
+platform :ios, '11.4'
+use_frameworks!
+
+target 'awp2' do
+
+  # Required: This installs the core BoseWearable library.
+  pod 'BoseWearable', '~> 2.0'
+
+  # Optional but recommended: This installs the UIKit search UI.
+  pod 'BoseWearable/SearchUI', '~> 2.0'
+
+end
